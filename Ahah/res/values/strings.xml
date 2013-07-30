@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ahah</string>
+    <string name="abouttab">关于</string>
+    <string name="goah">开始</string>
+    <string name="ranktab">排名</string>
+    <string name="hello_world">测试p</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="info">信息</string>
+    <string name="testButton">测试</string>
+    <string name="title_activity_go_ah">GoAhActivity</string>
+    <string name="GoAhButton">Go</string>
+    <string name="title_activity_single_ha">SingleHaActivity</string>
+
+</resources>
