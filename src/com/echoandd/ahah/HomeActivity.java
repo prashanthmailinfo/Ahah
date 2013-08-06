@@ -67,7 +67,7 @@ public class HomeActivity extends FragmentActivity implements OnClickListener{
 		super.onCreateOptionsMenu(menu);
 		menu.add(0, 1, 1, "设置");
 		menu.add(0, 2, 2, "信息");
-		menu.add(0, 3, 3, "关于"); 
+		menu.add(0, 3, 3, "手电筒"); 
 		return true;
 	}
 	
@@ -95,8 +95,8 @@ public class HomeActivity extends FragmentActivity implements OnClickListener{
 			break;
 		case 3:
 			Log.i("menu", "33");
-			intent.setClass(this, AboutActivity.class);
-			startActivity(intent);
+			startActivity(new Intent(HomeActivity.this, LightActivity.class));
+			overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
 			break;
 
 		default:

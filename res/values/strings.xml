@@ -14,5 +14,6 @@
     <string name="title_activity_go_ah">GoAhActivity</string>
     <string name="GoAhButton">Go</string>
     <string name="title_activity_single_ha">SingleHaActivity</string>
+    <string name="title_activity_light">LightActivity</string>
 
 </resources>
